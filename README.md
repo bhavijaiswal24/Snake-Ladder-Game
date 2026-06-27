@@ -1,18 +1,96 @@
-## Getting Started
+# Snake and Ladder Game
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+A console-based Snake and Ladder game developed in Java using Object-Oriented Programming (OOP) principles. The application simulates the classic board game, allowing multiple players to roll dice, move across the board, and interact with snakes and ladders.
 
-## Folder Structure
+## Features
 
-The workspace contains two folders by default, where:
+- Multiplayer gameplay support
+- Random dice rolling mechanism
+- Dynamic player movement on the board
+- Snake and ladder interactions
+- Automatic winner detection
+- Console-based interactive gameplay
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Technologies Used
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+- Java
+- Object-Oriented Programming (OOP)
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Project Structure
 
-## Dependency Management
+```
+Snake-Ladder-Game/
+│
+├── src/
+│   ├── board/         # Board creation and management
+│   ├── coordinates/   # Handles board coordinates
+│   ├── dice/          # Dice rolling logic
+│   ├── game/          # Core game flow and rules
+│   ├── jumper/        # Snake and ladder implementation
+│   ├── player/        # Player management
+│   ├── App.java       # Main entry point
+```
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## OOP Concepts Used
+
+- Classes and Objects
+- Encapsulation
+- Abstraction
+- Composition
+- Modular Design
+
+## Functionalities
+
+- Initialize the game board with snakes and ladders.
+- Support multiple players.
+- Roll dice and move players accordingly.
+- Move players through snakes and ladders automatically.
+- Detect the winner when a player reaches the final cell.
+- Manage game flow and player turns.
+
+## How to Run
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/bhavijaiswal24/Snake-Ladder-Game.git
+```
+
+2. Navigate to the project directory:
+
+```bash
+cd Snake-Ladder-Game
+```
+
+3. Compile the Java files:
+
+```bash
+javac src/App.java
+```
+
+4. Run the application:
+
+```bash
+java App
+```
+
+## Learning Outcomes
+
+- Gained practical experience in Java Object-Oriented Programming.
+- Improved understanding of Low-Level Design (LLD) concepts.
+- Learned to design and implement game logic using modular architecture.
+- Enhanced problem-solving skills through board game simulation.
+
+## Future Enhancements
+
+- Add customizable board sizes.
+- Introduce different difficulty levels.
+- Develop a graphical user interface (GUI) using Java Swing or JavaFX.
+- Add game statistics and score tracking.
+- Support online multiplayer gameplay.
+
+## Author
+
+**Bhavi Jaiswal**
+
+GitHub: https://github.com/bhavijaiswal24
